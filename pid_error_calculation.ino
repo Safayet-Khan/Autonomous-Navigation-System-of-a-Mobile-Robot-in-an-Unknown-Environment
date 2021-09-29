@@ -1,4 +1,3 @@
-
 #include <math.h>
 
 #define N             48    //Number of ticks per revolution
