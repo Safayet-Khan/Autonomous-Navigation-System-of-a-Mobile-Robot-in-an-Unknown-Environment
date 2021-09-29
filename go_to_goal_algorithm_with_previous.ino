@@ -1,4 +1,3 @@
-
 #include <math.h>
 
 #define KP            25
