@@ -1,4 +1,3 @@
-
 #include <math.h>
 
 #define cons          0.01
@@ -27,7 +26,7 @@
 #define Interrupt_Channel_A_Motor_2       3
 #define Interrupt_Channel_B_Motor_2       2
 
-long int count_1 = 0 , count_2 = 0 ;
+long int count_1 = 0 , count_2 = 0;
 boolean A , B , C , D;
 byte state_1 , statep_1 , state_2 , statep_2 ;
 volatile int QEM[16] = { 0, -1, 0, 1, 1, 0, -1, 0, 0, 1, 0, -1, -1, 0, 1, 0 };
