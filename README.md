@@ -19,3 +19,6 @@ Simulation result (Fig. 1) shows that the agent goes from point (0,0) to (1,1) f
 For hardware platform a differential drive wheeled robot is made. There are two wheels which are controlled by DC motors and a caster ball at the front side for the balancing of the robot. Five Ultrasonic distance sensors are used in the front part of the robot to take the decision about the environment and wheel encoders are used to measure the rotation of wheel and using this information it estimates its position in the environment. The control mechanism is based on the processor [Arduino MEGA](https://store.arduino.cc/products/arduino-mega-2560-rev3). In our project we did not use any accelerometer. We were just depending on wheel encoder for localization. So drift is a major issue for this robot. One may use dead weight in the middle position of the wheels to get rid of drift.
 
 <img src="images/robot_photo.jpg" width=500>
+
+### Acknowledgement
+I have learnt a lot regarding control theory from the MOOC on [“Control of Mobile Robots”](https://www.my-mooc.com/en/mooc/control-of-mobile-robots/). It was taught by [Dr. Magnus Egerstedt](https://www.ece.gatech.edu/faculty-staff-directory/magnus-egerstedt-0).
