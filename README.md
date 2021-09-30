@@ -11,9 +11,7 @@ This repository contains my source code and implementation video of autonomous n
 5. **follow_wall_algorithm_with_previous.ino**
 
 ## Steering Control System, Local Co-ordinate System and Global Co-ordinate System
-For a mathematical explanation of the full control system of this differential drive mobile robot sees the paper mentioned below Published Conference Paper on this Project. It contains proper explanations with mathematical justifications. Also, I would encourage anyone interested to do the MOOC mentioned below.
-- [Published Conference Paper on this Project](#published-conference-paper-on-this-project)
-- [Acknowledgement](#acknowledgement)
+For a mathematical explanation of the full control system of this differential drive mobile robot sees the [paper mentioned below](#published-conference-paper-on-this-project). It contains proper explanations with mathematical justifications. Also, I would encourage anyone interested to do the [MOOC mentioned below](#acknowledgement).
 
 ## Simulation Results
 The algorithms proposed for navigation is efficient for both types of concave and convex obstacles. The robot does not suffer from local minima in any of the cases. The simulation results show the improvement over existing approaches like Follow the Gap Method (FGM), Vector Histogram (VFH) etc. We can also see that the proposed navigation algorithm is better than the A* search algorithm, Dijkstra's Algorithm or Grassfire Algorithm, which are used for navigation in a known environment.
