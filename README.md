@@ -2,7 +2,7 @@
 This repository contains my source code and implementation video of the autonomous navigation system of a mobile robot. The proposed algorithms follow a short and smooth trajectory. The algorithm I have used is a goal-oriented algorithm that always sets its path according to the location of the goal point. But in the wall following algorithm, while the robot is trying to follow a wall, certainly it does not know the outside of its disk abstraction. The robot takes the decision depending on the data it is receiving using sonar range sensors. But the sensor does not have a wide range. The robot takes the decision about its movement based on the clock-wise and counter-clock-wise direction vector multiplication. Therefore, sometimes it may travel more path than expected.
 
 ## Source Code Files Order 
-:warning: I have worked on this project in 2016. Since it's been a long time some of the code may be deprecated. :warning:
+:warning: I have worked on this project in 2016. Since it's been a long time some of the code may be deprecated.
 
 1. **pid_error_calculation.ino**
 2. **encoder_sonar_setup_with_previous.ino**
